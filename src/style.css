@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: #b0d8da;
+  overflow: hidden;
+}
+.container .left {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  padding: 20px;
+}
+.left .desc {
+  color: #fff;
+  font-size: 24px;
+  margin-top: 40px;
+}
+.left .illustration {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 110%;
+  transform: rotate(-7.75deg);
+}
+.container .right {
+  width: 70%;
+  height: 100%;
+  background: #fff;
+  border-radius: 36px 0 0 36px;
+}
+.right .wrapper {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.wrapper .heading {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.social-login {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.social-login a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 230px;
+  height: 45px;
+  border-radius: 8px;
+  padding: 0 10px;
+  border: 1px solid #e6e6e6;
+  color: #5a5a5a;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.wrapper .or {
+  text-align: center;
+  color: #a3a3a3;
+  font-size: 18px;
+  line-height: 35px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+.form .input-group {
+  position: relative;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 20px;
+  display: flex;
+  padding: 0 10px;
+}
+
+.form .input-group input {
+  width: 100%;
+  height: 45px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #5a5a5a;
+}
+.form .input-group img {
+  cursor: pointer;
+}
+.form .btn {
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: #65e6ed;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.msg {
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: small;
+}
